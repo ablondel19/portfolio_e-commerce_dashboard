@@ -63,12 +63,12 @@ import "./Layout.css";
 const Layout = () => {
   return (
     <Box className="layout">
-      <Box
+      {/* <Box
         className="header"
         sx={{ color: "white", height: "5em", width: "100%" }}
       >
         <Typography variant="h2">HEADER</Typography>
-      </Box>
+      </Box> */}
       <Box className="flex-layout-container">
         <Box className="flex-container">
           <Box className="flex-item"></Box>
@@ -81,7 +81,7 @@ const Layout = () => {
       </Box>
       <Box
         className="footer"
-        sx={{ color: "white", height: "5em", width: "100%" }}
+        sx={{ color: "white", height: "5em", width: "90%" }}
       >
         <Typography variant="h2">FOOTER</Typography>
       </Box>
